@@ -6,22 +6,26 @@
     font-family: 'Open Sans', sans-serif;
 
 }
-html, body {
-    background-color: #e8e8e8;
+ html, body {
+    background-color: #ddd;
 }
-header{
+ header{
     background-color: #4D41C0;
     color: #ffffff;
+ }
   
-nav{
-    display: flex ;
-    align-items:center;
-    justify-content: space-between;
+ nav{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+  
 }
      
  
-}
-a, a:hover{
+
+ a, a:hover{
     text-decoration: none;
     color: unset;
 }

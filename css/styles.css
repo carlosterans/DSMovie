@@ -4,6 +4,7 @@
 
     --color-primary:blue;
     --white: #fff;
+    --text-gray:#4a4a4a
 
 }
 *{
@@ -55,4 +56,45 @@ nav a{
 }
 .DSMovie-contact-container img{
     margin-right: 10px;
+}
+#dsmovie-card-list{
+    padding: 40px 0; 
+ }
+.DSMovie-card{
+width:360px;
+height: 400px;
+
+}
+.DSMovie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+
+}
+.dsmovie-card-description{
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.dsmovie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px ;
+  
+}
+.dsmovie-dtn, .dsmovie-dtn:hover{
+    width: 180px;
+    height:40px ;
+    background-color: var(--color-primary);
+    color:var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+
 }
